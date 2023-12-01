@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next SaaS Boilerplate
+
+## under construction
+
+**Version:** 0.1.0
+
+**Description:**
+A powerful boilerplate for rapidly building Software as a Service (SaaS) applications using Next.js. This project is equipped with essential packages and configurations to jumpstart your SaaS development journey.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v14 or higher)
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/next-saas-boilerplate.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd next-saas-boilerplate
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Available Scripts
 
-## Learn More
+- Development:
+  ```bash
+  npm run dev
+  # or
+  yarn dev
+  Start the development server.
+  ```
+- Build:
+  ```bash
+  npm run build
+  # or
+  yarn build
+  Build the project for production.
+  ```
+- Start:
+  ```bash
+  npm start
+  # or
+  yarn start
+  Start the production server.
+  ```
+- Linting:
+  ```bash
+  npm run lint
+  # or
+  yarn lint
+  Run ESLint for code linting.
+  ```
 
-To learn more about Next.js, take a look at the following resources:
+### Dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js: 14.0.3
+- React: 18
+- React DOM: 18
+- Redux Toolkit: 1.9.7
+- React Redux: 8.1.3
+- Supabase SSR: 0.0.10
+- Supabase JS: 2.39.0
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Dev Dependencies
 
-## Deploy on Vercel
+- TypeScript: 5
+- Next.js ESLint Config: 14.0.3
+- ESLint: 8
+- Prettier: 3.1.0
+- Autoprefixer: 10.0.1
+- PostCSS: 8
+- Tailwind CSS: 3.3.0
+- DaisyUI: 4.4.17
+- Redux Logger: 3.0.6
+- Types for Node, React, React DOM, Redux - Logger: Latest
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to contribute to enhance the features or fix issues.
